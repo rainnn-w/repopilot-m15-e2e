@@ -1,0 +1,7 @@
+name: failing-check
+on: [push]
+jobs:
+  broken:
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 1
