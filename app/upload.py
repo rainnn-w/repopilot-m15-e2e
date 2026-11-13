@@ -1,6 +1,6 @@
 """Upload helper for the demo app."""
 
-MAX_BYTES = 1_000_000
+MAX_BYTES = 4_000_000  # pr-b: much larger ceiling
 
 
 def save_upload(path: str, data: bytes) -> bool:
