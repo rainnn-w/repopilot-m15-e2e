@@ -16,4 +16,3 @@ def save_upload(path: str, data: bytes) -> bool:
 def upload_size_ok(data: bytes) -> bool:
     """Size gate helper so callers can reject early."""
     return len(data) <= MAX_BYTES
-
